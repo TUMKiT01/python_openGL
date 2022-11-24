@@ -1,0 +1,52 @@
+F  8/26/22
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gltranslate3f(การเปลียนตำแหน่งขยับจากมุมล่างซ้ายขึ้นไป)    
+                  T =Ts*T
+                  T= Ts*I
+                  T= Ts
+ เอาแต่ละcol มาคูณ row ทุกตัวละเอามา+ กัน 
+[....]c
+[    ]               
+[    ]   
+[    ]   * [.   ]
+           [.   ]
+           [.   ] 
+            r
+
+glScale3f (เหมือนกับตัวบนแต่การเพิ่มจะเพิ่มลดจากตรงกลาง)
+
+
+
+9/2/2022
+glpushmatrix()
+gltranslate(xc,yc)
+glrotatef(theta,o,o,1)
+gltranslate(-xe,-ye)
+glbegin(GL_QUADS)
+
+glvertex2f(p0)
+glvertex2f(p1)
+glvertex2f(p2)
+glvertex2f(p3)
+glend()   
+
+
+
+glpipmatrix()
+
+glutdisplayFunc(mydraw)
+glutidlefunc(myIdle)
+          def muidle():
+
+
+
+9/9/22 
+การทำ 2D 
+
+
+          
+
+
+
+
+       
